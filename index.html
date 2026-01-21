@@ -27,7 +27,7 @@
     >
       <div class="hidden lg:block col-span-1">
         <img
-          class="hover:scale-105 transition-all duration-200"
+          class="cursor-pointer hover:scale-105 transition-all duration-200"
           src="./images/developer.png"
           alt=""
         />
@@ -74,7 +74,7 @@
           </div>
           <div class="w-[884px] h-auto">
             <img
-              class="w-full h-full rounded-2xl hover:scale-120 transition-all duration-300"
+              class="w-full h-full rounded-2xl hover:scale-120 transition-all duration-300 cursor-pointer"
               src="./images/FB_IMG_1757413860328.jpg"
               alt=""
             />
@@ -85,9 +85,9 @@
 
     <!-- about section  -->
     <section>
-      <div class="w-full max-w-[1140px] mx-auto my-24 lg:my-32 bg-[#FFF8F3]">
+      <div class="w-full max-w-[1140px] mx-auto my-24 lg:my-32 bg-[#FFF8F3] py-36">
         <div
-          class="w-full max-w-[850px] mx-auto min-h-screen flex flex-col items-center justify-center gap-10"
+          class="w-full max-w-[850px] mx-auto flex flex-col items-center justify-center gap-10"
         >
           <h2 class="text-4xl font-bold">About Me</h2>
           <p class="text-xl text-[#757575]">
@@ -97,7 +97,7 @@
             resulfs while working with me. Delivering work within time and
             budget which meets clients requirements in our mata.
           </p>
-          <div class="flex items-center justify-between gap-11">
+          <div class="flex items-center justify-between gap-11 mt-10">
             <div>
               <h4 class="text-xl">Name:</h4>
               <h2 class="text-lg font-bold">Nasrullah Sheikh Noman</h2>
@@ -277,8 +277,36 @@
       </div>
 
       <div>
-        <button class="text-xl font-bold text-white bg-[#FD6E0A] w-52 h-16 rounded-md hover:scale-115 transition-all duration-200 gap-2.5 cursor-pointer"><i class="fa-solid fa-download"></i> Download CV</button>
+        <button class="text-xl font-bold text-white bg-[#FD6E0A] w-52 h-16 rounded-md hover:scale-115 transition-all duration-200 gap-2.5 cursor-pointer mb-7"><i class="fa-solid fa-download"></i> Download CV</button>
       </div>
     </section>
+
+
+    <!-- footer section  -->
+    <section class="w-full max-w-[1600px] mx-auto bg-[#FFF8F3] flex flex-col justify-center mt-36 py-28">
+      <div class="w-full max-w-[1140px] mx-auto grid grid-cols-2  gap-28">
+        <div class="flex flex-col gap-10">
+          <h2 class="text-4xl font-bold text-[#181818]">Lets Connect</h2>
+          <p class="text-[#474747]">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+          <div class="flex gap-6">
+            <img class="" src="./images/icons/facebook.png" alt="">
+            <img src="./images/icons/twitter.png" alt="">
+            <img src="./images/icons/insta.png" alt="">
+          </div>
+        </div>
+        <div class="flex flex-col gap-8">
+          <h2 class="text-4xl font-bold text-[#181818]">Let’s Message me</h2>
+          <form class="flex flex-col gap-6">
+            <input class="bg-[#FFFFFF] w-[464px] h-16 p-8 border-0" type="text" id="form" placeholder="Your name" required>
+            <input class="bg-[#FFFFFF] w-[464px] h-16 p-8 border-0" type="email" name="email" id="form" placeholder="Your email" required>
+            <textarea class="bg-[#FFFFFF] w-[464px] h-48 p-8 border-0 outline-0" type="text" name="Message" id="form" placeholder="Message" required ></textarea>
+            <div class="bg-[#FD6E0A] w-[150px] px-8 py-4 text-white text-xl font-bold rounded-md hover:scale-115 transition-all duration-200" id="form">Submit</div>
+          </form>
+        </div>
+      </div>
+      
+    </section>
+
+
   </body>
 </html>
